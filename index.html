@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personel portfolio</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/b7a3a1ea42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo"><span>V</span>ishal.V</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#My hobbies">My hobbies</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front end developer</p>
+            <h1>Hi, I'm <span>Vishal</span><br>From Bangalore</h1>
+        </div>
+    </div>
+</div>
+<!--------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am vishal.v, Based in Bangalore,Karnataka. Who always put a step forward to take new things on head. Makes time always for a cup of coffee. Would die for Cricket on sundays.
+                    I am a Fresher and i Committed to developing responsive websites across variable devices and browsers.
+                    Influenced in HTML, CSS, python and also a bit with PHP & MySQL. Entertained by front end development with Materialized design as well. In At learning stage of node.js. Hopefully will become a master as i have strong belief in self learning.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Web development</li>
+                        <li><span>Adobe illustrator</span><br>Graphic designing</li>
+                        <li><span>HTML,CSS</span><br>Web development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-23</span><br>SVM college BCA</li>
+                        <li><span>2019-20</span><br>HSC in Seventh Day Adventist </li>
+                        <li><span>2017-18</span><br>SSLC in Seventh Day Adventist</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------projects-------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-message"></i>
+                <h2>Student Feedback System</h2>
+                <p>My project deals with the feedback given by the students and helps the institution to improve whatever the needful things that help for the student as well as institution.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-images"></i>
+                <h2>Image Stenography</h2>
+                <p>My project is nothing but sending a information from one person to another person hiding with in a image as a secret code</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car-side"></i>
+                <h2>Car Rental Booking System</h2>
+                <p>The purpose of this project is to makerented cars or vehicles available for the people who want to travel with their family and friends from one place to another.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------My hobbies------------>
+<div id="My hobbies">
+    <div class="container">
+        <h1 class="sub-title">My hobbies</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you the talented people around the world.
+                     Download it from the play store.</p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>   
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="music.jpeg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Music is the wine that fills the cup with silence.
+                     Download it from the play store.</p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>   
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="chess.jpeg">
+                <div class="layer">
+                    <h3>Playing chess</h3>
+                    <p>It's a classic and widely popular board game that has been played for centuries
+                     Download it from the play store.</p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>   
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get in touch</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vishal.v182002@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i></i>91+8610183376</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/vishal.venkat.904"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/vishal_venkat_17"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vishal-v-97423127a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/vishal182002"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="My-CV.PDF" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Vishal<i class="fa-solid fa-heart"></i>2023</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>    
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJwfTKxvzH5Hj41oOdCEJ6iHwkNKSpi5JhMnIwYn8NVlmyYUEpqzcgtq4wAcEtw7zDvA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
